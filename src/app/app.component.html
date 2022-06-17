@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BMF Attorneys</title>
+</head>
+<body class="pages">
+
+<div id="contract" #contract>
+  <!-- page 1  -->
+<p>Recruitment rates and terms agreement</p>
+<hr>
+<br><br>
+<h2>FIXED TERM AGREEMENT</h2>
+<br><br>
+<h3>between</h3>
+<h2 class="middle">BMF ATTORNEYS</h2>
+<h2 class="middle">with company registration number 2022/123456/07</h2>
+<br><br>
+<h3>and</h3>
+<div class="middle">
+<input type="text"  class="form-control" [(ngModel)]="name" id="name" placeholder="INSERT CLIENT NAME" required>
+</div>
+<br><br><br><br>
+<h3>Collectively referred herein as the “parties”</h3>
+<br><br>
+<div class="filler"></div>
+
+
+<p style="page-break-after: always;"></p>
+<!-- page2 -->
+<p>Recruitment rates and terms agreement</p>
+<hr>
+<ol>
+  <li>Payment Terms:</li>
+  <ul>
+    <li>BMF Attorney’s fee <input type="text" class="form-control" [(ngModel)]="amount" placeholder="Insert Payment Amount" required> (excluding VAT). The retainer fee <br> can be paid upfront, or month-to-month and the payment terms can be <br> payable as follows: </li>
+    <ul>
+      <li>Upfront:</li>
+      <ul>
+        <li>Three-twelfths of the fee during the probation period in 3 equal <br>instalments by the 7th day of each month</li>
+        <li>Nine-twelfths of the fee upon conclusion of the probation period <br>of employment payable on the 7th day of the 4th month.</li>
+      </ul>
+      <li>Month-to-month:</li>
+      <ul>
+        <li>The month-to-month fee shall be paid by the 7th day of each month</li>
+      </ul>
+    </ul>
+    <li>No variation or amendment to this Agreement shall be of any effect unless <br> such amendment is put in writing and signed by all parties</li>
+    <li>Any documentation prepared by BMF Attorneys remains its property</li>
+  </ul>
+
+  <br>
+  <li>Appointment</li>
+  <ol class="myList">
+    <li>The Client has procured the services of BMF Attorneys and hereby<br>accepts the appointment as an independent contractor of the Client for<br> a fixed period of time. </li>
+    <li>The reason for this fixed-term contract is for the appointment and completion of the <input type="text" class="form-control" [(ngModel)]="discription"  placeholder="Service Description" required> </li>
+  </ol>
+
+  <br>
+  <li>Duration</li>
+  <ol>
+    <li>Notwithstanding the date of signature hereof, this fixed term contract<br> shall be deemed to have commenced on the <input type="text" class="form-control" [(ngModel)]="sDate" placeholder="insert start date" required> and will<br> terminate, without further notice, on the <input type="text" class="form-control" [(ngModel)]="eDate" placeholder="insert end date" required>.</li>
+    <li>The automatic termination of the contract on the Termination Date<br> shall not be construed as a dismissal but as the completion of a fixed<br> term contract.</li>
+  </ol>
+</ol>
+<hr>
+<p class="footer">PAGE 2 OF 3</p>
+
+<p style="page-break-after: always;"></p>
+
+<!-- page3 -->
+  <p>Recruitment rates and terms agreement</p>
+  <hr>
+  <h4>4.</h4>
+  <br><br><br>
+  <h2>Signed at <span class="tab"></span> on</h2>
+  <div class="signature"></div>
+  <label>Who warrants authority on behalf of Jobox</label>
+  <br>
+  <h2>Signed at <span class="tab"></span> on</h2>
+  <div class="signature"></div>
+  <label>Who warrants authority on behalf of </label>
+  <div class="filler"></div>
+  <br><br>
+  <hr>
+  <p class="footer">PAGE 3 OF 3</p>
+</div>
+<h3 style="text-align: center; color: red;">*Button will only be enabled once all input boxes are filled</h3>
+<button type="submit" [disabled]="!name || !amount || !discription || !sDate || !eDate"  (click)="download()" class="btnDownload">Download Contract to PDF</button>
+<br><br>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* .mylist.li:before { content: counters(item, ".") " "; counter-increment: item } */
+
+.tab{
+  padding-left: 200px;
+}
+
+.signature{
+  width: 250px;
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+.filler{
+
+  height: 200px;
+}
+
+.btnDownload{
+  background-color: cornflowerblue;
+  border-color: silver;
+  margin-left: 45%;
+  padding: 13px;
+  border-radius: 12px;
+}
+
+
+.pages
+{
+  margin: 50px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.middle{
+  text-align: center;
+}
+
+body{
+  font-family:  Roboto;
+}
+
+ol{
+  font-size: xx-large;
+}
+
+input{
+  height: 30px;
+  font-size: large;
+}
+
+label{
+  font-size: large;
+}
