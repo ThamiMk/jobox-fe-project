@@ -1,10 +1,10 @@
-# BMFContract
+# jobox-fe-project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm i` then `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -38,3 +38,14 @@ This project is MIT licensed.
 6. direct to file in the terminal - type: **cd [file name of copied link]** and press enter
 7. lastly type: **code .** and press enter
 8. A compatible code editor will open the app 
+
+## Hours Spent
+
+1. Create page 1	14/06/2022  0,5 hours 
+2. Create page 2	14/06/2022	2 hours
+3. Create page 3	14/06/2022	1 hours
+4. Download PDF 	14/06/2022	3 hours
+5. ReadMe	        17/06/2022	0,5 hours
+6. Styling	      16/06/2022	3 hours
+7. testing	      16/06/2022	2 hours
+Total Time spent (hours)		12   
